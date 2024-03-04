@@ -148,6 +148,7 @@ begin
     CPU_EXTENSION_RISCV_E      => RISCV_E,
     CPU_EXTENSION_RISCV_M      => true,
     CPU_EXTENSION_RISCV_U      => true,
+    CPU_EXTENSION_RISCV_Zfinx  => true,
     CPU_EXTENSION_RISCV_Zicntr => true,
     CPU_EXTENSION_RISCV_Zicond => true,
     -- Tuning Options --
