@@ -61,6 +61,8 @@ class sail_cSim(pluginTemplate):
             self.isa += 'c'
         if "F" in ispec["ISA"]:
             self.isa += 'f'
+        if "Zfinx" in ispec["ISA"]:
+            self.isa += 'Zfinx'
         if "D" in ispec["ISA"]:
             self.isa += 'd'
         objdump = "riscv{0}-unknown-elf-objdump".format(self.xlen)
